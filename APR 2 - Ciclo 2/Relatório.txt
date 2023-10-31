@@ -1,0 +1,35 @@
+Aluno: Douglas Leonel de Almeida
+Matrícula: 2110213
+
+Como estudante de Engenharia de Software encarregado de projetar um sistema de segurança residencial inteligente, é fundamental considerar cuidadosamente os requisitos para garantir um sistema eficaz e confiável.
+
+- Detecção de Invasão:
+Para detectar movimentos suspeitos, é aconselhável utilizar sensores de presença infravermelhos passivos (PIR) e sensores de abertura para portas e janelas. 
+Os sensores PIR podem ser instalados em áreas-chave, como o quintal, corredores e garagem, enquanto os sensores de abertura podem ser colocados nas portas e janelas. Eles se comunicariam com um Arduino ou módulo IoT dedicado.
+
+- Detecção de Incêndio:
+Sensores de fumaça e calor são essenciais para identificar potenciais incêndios. Os sensores de fumaça ópticos são uma escolha comum. 
+Eles seriam distribuídos em áreas suscetíveis a incêndios, como a cozinha e a sala de estar, e se comunicariam com o sistema central.
+
+- Controle Remoto:
+Para permitir o controle remoto, é possível usar uma plataforma IoT, como o Arduino com conexão Wi-Fi ou um módulo GSM. 
+O proprietário pode usar um aplicativo móvel dedicado para armar ou desarmar o sistema, com autenticação segura, como login e senha, para garantir a privacidade e a segurança.
+
+- Notificações:
+Notificações em tempo real podem ser configuradas usando um serviço de nuvem, como o AWS IoT Core ou o Google Cloud IoT Core. 
+Quando ocorrer atividade suspeita ou um evento crítico, o sistema enviará notificações por meio de um aplicativo móvel ou e-mail, dependendo da preferência do proprietário.
+
+- Plataforma e Embarcado:
+O Arduino, devido à sua flexibilidade e suporte à comunicação IoT, é uma escolha sólida para o sistema embarcado. 
+Para a plataforma de nuvem, o AWS IoT ou o Google Cloud IoT oferecem recursos robustos de gerenciamento de dispositivos e notificações em tempo real.
+
+- Monitoramento e Controle:
+O monitoramento pode ser feito por meio de um aplicativo móvel, onde o proprietário pode verificar o status do sistema e receber notificações. 
+Além disso, o controle por voz usando assistentes como Alexa ou Google Assistant também pode ser implementado para maior comodidade.
+
+- Relatório de Projeto:
+O relatório do projeto deve detalhar as escolhas de sensores, justificando sua seleção com base nas áreas críticas da casa. Deve incluir um diagrama de arquitetura do sistema, descrevendo como os sensores se comunicam com o Arduino e como os dados são enviados para a plataforma de nuvem. 
+Além disso, o relatório deve abordar considerações de segurança, como a proteção contra invasões no sistema e a privacidade dos dados do proprietário.
+
+Em resumo, o projeto de segurança residencial inteligente baseado em IoT oferece proteção contra invasões e incêndios, controle remoto e notificações em tempo real. 
+As escolhas de sensores, plataforma de nuvem e métodos de monitoramento e controle devem ser cuidadosamente consideradas para garantir um sistema eficaz e seguro.
